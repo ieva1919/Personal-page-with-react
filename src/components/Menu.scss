@@ -1,0 +1,42 @@
+.container {
+
+    ul {
+        padding: 8px; 
+
+        li {
+            font-size: 16px;
+            padding: 8px;
+        }
+    }
+}
+.menu {
+    li {
+        display: inline;
+    }
+    a {
+        color: #333;
+    }
+}
+  .name {
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 9px;
+    background-color: #939E83;
+    color: white;
+    text-align: center;
+  }
+
+  .affix {
+    top: 0px;
+    width: 100%;
+    background: white;
+    z-index: 1;
+  }
+  
+  .affix-top .container, .affix .container {
+    padding-top: 10px;
+  }
+  
+  .affix + .container {
+    padding-top: 66px;
+  }

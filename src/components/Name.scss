@@ -1,0 +1,51 @@
+.jumbotron {
+    background-image:url("/img/header.jpg");
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+    background-position: left center;
+    }
+    
+.title-jombotron {
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    background: #ECE9E2;
+    background: #ECE9E2;
+    position: relative;
+    width: 31%;
+    height: 13%;
+    float: right;
+    margin-top: 10%;
+
+        h2 {
+            padding: 8px;
+            margin: 20px;
+        }
+
+        h4 {
+            position:absolute;
+            bottom: -20px;
+            width: 100%;
+          }
+
+        span {
+            background: #ECE9E2;
+            padding: 0 8px;
+            border-radius: 5px;
+        }
+}
+
+@media all and (max-width: 600px) { 
+
+    .jumbotron {
+        background-image: none;
+        background-color: #ECE9E2;
+        height: 600px;
+        width: 100%;
+    }
+
+    .title-jombotron  {
+        width: 100%;
+    }
+}
