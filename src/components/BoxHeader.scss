@@ -1,0 +1,25 @@
+.box-header {
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    width: 340px;
+    margin: 120px auto;
+    position: relative;
+
+    h4 {
+        position:absolute;
+        top: -20px;
+        width: 100%;
+      }
+
+      span {
+        background: white;
+        padding: 0 8px;
+        border-radius: 5px;
+      }
+
+      h2 {
+        margin: 20px 0;
+      }
+  }
+
