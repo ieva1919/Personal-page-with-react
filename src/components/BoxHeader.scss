@@ -1,10 +1,16 @@
 .box-header {
-    border: 1px solid black;
-    border-radius: 5px;
-    text-align: center;
-    width: 340px;
-    margin: 120px auto;
-    position: relative;
+    display: inline-block;
+    width: 100%;
+
+
+    &--box {
+      border: 1px solid black;
+      border-radius: 5px;
+      text-align: center;
+      width: 340px;
+      margin: 100px auto;
+      position: relative;
+    }
 
     h4 {
         position:absolute;

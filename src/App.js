@@ -1,15 +1,17 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import Name from './components/Name'
 import Menu from './components/Menu'
-import BoxHeader from './components/BoxHeader'
+import Personaldetail from './components/Personaldetail'
+import Experience from './components/Experience'
 
 function App() {
   return (
     <div className="App">
       <Name />
       <Menu />
-      <BoxHeader title="WHO AM I?" container="Personal details" />
+      <Personaldetail />
+      <Experience />
     </div>
   );
 }

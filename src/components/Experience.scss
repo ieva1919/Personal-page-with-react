@@ -1,0 +1,39 @@
+.color-darker {
+    background: #f6f6f6;
+  }
+
+.color-darker .box-header h4 span {
+    background: #f6f6f6;
+}
+
+.work {
+    border-top: 1px solid #939E83;
+    margin: 50px 20px;
+    padding: 20px;
+
+    p {
+        padding: 10px 0;
+    }
+
+    li {
+        list-style: none;
+        display: block;
+     }
+
+     h4 {
+        padding: 0 15px;
+        font-weight: bold;
+      }
+
+      h2 {
+        font-weight: bold;
+      }
+
+    a {
+        color: black;
+        text-decoration: underline;
+    }
+}
+
+
+
