@@ -22,7 +22,7 @@ function Personaldetail() {
                 </div>
                 <div className="col-sm-5">
                     <h3>Front end</h3>
-                    <p className="text-justify">I have been interested in front end world more than some years. Firstly, I have been learning using online courses and by myself. Secondly, I have graduated Kaunas Coding Schools 6 weeks intensive programmer course, where I have learned the basics of JAVA, C# and web development. Finally, I am participant of Women go Tech and I have completed about ten diferent web projects while learning.</p>
+                    <p className="text-justify">I have been interested in front end world more than some years. Firstly, I have been learning using online courses and by myself. Secondly, I have graduated Kaunas Coding Schools 6 weeks intensive programmer course, where I have learned the basics of JAVA, C# and web development. Finally, I am participant of Women go Tech and I have completed about ten different web projects while learning.</p>
                 </div>
             </div>
         </div>
