@@ -5,6 +5,7 @@ import Menu from './components/Menu'
 import Personaldetail from './components/Personaldetail'
 import Experience from './components/Experience'
 import Education from './components/Education'
+import SkillandHobbies from './components/SkillandHobbies'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Personaldetail />
       <Experience />
       <Education />
+      <SkillandHobbies />
     </div>
   );
 }
