@@ -32,7 +32,8 @@ function Menu() {
                                     <li><a href="#german">German philology</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#skills">Skills and Hobbies</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#hobbies">Hobbies</a></li>
                             <li><a href="#portfolio">Portfolio</a></li>
                             <li><a href="#contact">Contact</a></li>
                         </ul>

@@ -8,6 +8,8 @@ import Typography from '@material-ui/core/Typography';
 const useStyles = makeStyles({
     root: {
         minWidth: 275,
+        padding: '30px 10px',
+        margin: '10px 10px 70px 10px',
     },
     title: {
         fontSize: 14,
@@ -23,25 +25,21 @@ function Skillcard(props) {
     return (
         <Card className={classes.root}>
             <CardContent>
-                <div className="row">
-                    <div className="col-sm-6">
-                        <Typography className={classes.title}>
-                            <div className="row">
-                                <div className="col-sm-4">
-                                    <div className="card-title">
-                                        {props.children}
-                                    </div>
-                                </div>
-                                <div className="col-sm-8">
-                                    <div className="card-content">
-                                        <p>{props.title}</p>
-                                        <p>{props.content}</p>
-                                    </div>
-                                </div>
+                <Typography className={classes.title}>
+                    <div className="row">
+                        <div className="col-sm-4">
+                            <div className="card-title">
+                                {props.children}
                             </div>
-                        </Typography>
+                        </div>
+                        <div className="col-sm-8 text-left">
+                            <div className="card-content">
+                                <p><b>{props.title}</b></p>
+                                <p>{props.content}</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
+                </Typography>
             </CardContent>
         </Card >
     );
