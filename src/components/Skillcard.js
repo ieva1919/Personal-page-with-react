@@ -2,7 +2,6 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
-import Typography from '@material-ui/core/Typography';
 
 
 const useStyles = makeStyles({
@@ -25,7 +24,7 @@ function Skillcard(props) {
     return (
         <Card className={classes.root}>
             <CardContent>
-                <Typography className={classes.title}>
+                <div className={classes.title}>
                     <div className="row">
                         <div className="col-sm-4">
                             <div className="card-title">
@@ -39,7 +38,7 @@ function Skillcard(props) {
                             </div>
                         </div>
                     </div>
-                </Typography>
+                </div>
             </CardContent>
         </Card >
     );

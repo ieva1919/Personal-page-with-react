@@ -11,7 +11,7 @@ function Education() {
                     <div className="col-sm-4">
                         <h2>Juni 2016-Present</h2>
                         <h3>Codecademy</h3>
-                        <img src="img/EO_Codecademy_01.jpg" />
+                        <img src="img/EO_Codecademy_01.jpg" alt="icon" />
                     </div>
                     <div className="col-sm-8">
                         <h4>Learning web development</h4>
@@ -29,7 +29,7 @@ function Education() {
                     <div className="col-sm-4">
                         <h2>2013-2015</h2>
                         <h3>Kaunas University of Technology</h3>
-                        <img src="img/99944f08a149c46a596edb534d007329.jpg" />
+                        <img src="img/99944f08a149c46a596edb534d007329.jpg" alt="icon" />
                     </div>
                     <div className="col-sm-8">
                         <h4>Master of Public Administration (MPA)</h4>
@@ -50,7 +50,7 @@ function Education() {
                     <div className="col-sm-4">
                         <h2>2009-2013</h2>
                         <h3>Vilnius University</h3>
-                        <img src="img/38_3dc805fd69282ebe7d60a21a96b1909c.jpg" />
+                        <img src="img/38_3dc805fd69282ebe7d60a21a96b1909c.jpg" alt="icon" />
                     </div>
                     <div className="col-sm-8">
                         <h4>German philology</h4>

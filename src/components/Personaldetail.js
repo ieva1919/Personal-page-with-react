@@ -9,7 +9,7 @@ function Personaldetail() {
         <div className="personal-details">
             <div className="row">
                 <div className="col-sm-4">
-                    <img src="/img/personal.jpg" alt="personal photo" />
+                    <img src="/img/personal.jpg" alt="personal" />
                 </div>
                 <div className="col-sm-3">
                     <ul className="details">
