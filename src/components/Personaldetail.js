@@ -16,7 +16,8 @@ function Personaldetail() {
                         <li className="virsus">Name and surname: Ieva Kavaliauskienė</li>
                         <li>Phone: +37066288748</li>
                         <li>Email: ieva1919@gmail.com</li>
-                        <li>City: Kaunas</li>
+                        <li>More information: <a href="https://www.linkedin.com/in/ieva-kavaliauskien%C4%97-564586bb/" target="blank">Ievos Linkedin</a></li>
+                        <li>More information: <a href="https://github.com/ieva1919" target="blank">Ievos GitHub</a></li>
                     </ul>
 
                 </div>

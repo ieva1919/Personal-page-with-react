@@ -9,11 +9,18 @@
       }
   }
   
-  .details li {
-     list-style: none;
-     display: block;
-     padding: 20px 8px;
-     border-bottom: 1px solid #B8AA7D;
+  .details {
+
+    li {
+      list-style: none;
+      display: block;
+      padding: 20px 8px;
+      border-bottom: 1px solid #B8AA7D;
+
+        a {
+          color: #B8AA7D;
+        }
+    }
   }
   
   .details-header {

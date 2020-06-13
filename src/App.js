@@ -24,4 +24,14 @@ function App() {
   );
 }
 
+//     <Page>
+//         <SideMenu />
+//         <MainContent>
+//             <PageHeader header="Users" />
+//             <LoadingBar loading={loading} />
+//             <DataTable date={users} />
+//             <Pagination />
+//         </MainContent>
+//     </Page>
+
 export default App;

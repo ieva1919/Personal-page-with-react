@@ -1,6 +1,7 @@
 import React from 'react'
 import './Experience.scss'
 import BoxHeader from './BoxHeader'
+import CardExperience from './CardExperience'
 
 function Experience() {
     return (<div className="color-darker">
@@ -8,27 +9,30 @@ function Experience() {
         <div className="container" id="experience">
             <div className="work">
                 <div className="row">
-                    <div className="col-sm-4">
-                        <h2>Since ~2017 and present</h2>
-                        <h3>Front end experience</h3>
+                    <div className="col-sm-5">
+                        <CardExperience
+                            title1="Since ~2017 and present"
+                            title2="Programming experience"
+                        />
                     </div>
-                    <div className="col-sm-8">
+                    <div className="col-sm-7">
                         <ul>
-                            <li>Online course Codecademy, Udemy</li>
                             <li>Participation of Women go Tech program and creation of new projects with mentors <a href="https://github.com/ieva1919/WGT-React">React project</a> and <a href="https://github.com/ieva1919/WGT-React">JavaScript project</a></li>
+                            <li>Creation of these following pages: my portfolio, Agnes atvirukai and other different projects</li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div className="work">
                 <div className="row">
-                    <div className="col-sm-4">
-                        <h2>From 1 August 2018-Present</h2>
-                        <h3>Senior sales operations specialist</h3>
+                    <div className="col-sm-5">
+                        <CardExperience
+                            title1="From 1 August 2018-Present"
+                            title2="Senior sales operations specialist"
+                        />
                     </div>
-                    <div className="col-sm-8">
+                    <div className="col-sm-7">
                         <ul>
-                            <li>Senior sales operations specialist:</li>
                             <li>to enter specific documents of customers in data processing system </li>
                             <li>to process documents in german, english (or in other languages) </li>
                             <li>to study materials every day </li>
@@ -40,13 +44,14 @@ function Experience() {
             </div>
             <div className="work">
                 <div className="row">
-                    <div className="col-sm-4">
-                        <h2>From 22 October 2015 until 30 Juli 2018</h2>
-                        <h3>Sales operation specialist</h3>
+                    <div className="col-sm-5">
+                        <CardExperience
+                            title1="From 22 October 2015 until 30 Juli 2018"
+                            title2="Sales operations specialist"
+                        />
                     </div>
-                    <div className="col-sm-8">
+                    <div className="col-sm-7">
                         <ul>
-                            <li>Sales operation specialist:</li>
                             <li>to enter order and quote of customers in data processing system in accordance with commonly agreed rules</li>
                             <li>to process documents in different languages (english, german, finnish, dutch)</li>
                             <li>to ensure quality of documents </li>
@@ -56,20 +61,21 @@ function Experience() {
             </div>
             <div className="work">
                 <div className="row">
-                    <div className="col-sm-4">
-                        <h2>Juli 2013-Jun 2016</h2>
-                        <h3>Freelance translator (german)</h3>
+                    <div className="col-sm-5">
+                        <CardExperience
+                            title1="Juli 2013-Jun 2016"
+                            title2="Freelance translator (german)"
+                        />
                     </div>
-                    <div className="col-sm-8">
+                    <div className="col-sm-7">
                         <ul>
-                            <li>Freelance translator (german)</li>
                             <li>Translation of texts from German to Lithuanian. I specialize in general and medical texts.</li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div >
     )
 }
 

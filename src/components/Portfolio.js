@@ -12,7 +12,7 @@ function Portfolio() {
                 <div className="portfolio">
                     <div className="row">
                         <div className="col-md-4 text-center">
-                            <Portfoliocard title="Agnės atvirukai" content="This project is created by using React, SASS, CSS Flexbox and CSS Media query, SASS. The Style of page was created by myself.">
+                            <Portfoliocard title="Agnės atvirukai" content="This project is created by using React, SASS, CSS Flexbox and CSS Media query. The Style of page was created by myself.">
                                 <a href="http://agnesatvirukai.lt/" target="_blank">
                                     <img src="/img/card.jpg" />
                                 </a>
