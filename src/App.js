@@ -8,6 +8,7 @@ import Education from './components/Education'
 import Skill from './components/Skill'
 import Hobbies from './components/Hobbies'
 import Portfolio from './components/Portfolio'
+import Template from './pages/Template'
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
         <Name />
         <Switch>
           <Route path="/templates">
-
+            <Template />
           </Route>
           <Route path="/">
             <Menu />

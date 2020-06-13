@@ -1,13 +1,14 @@
 import React from 'react'
 import './Menu.scss'
 import { Dropdown } from 'react-bootstrap'
+import ButtonName from './ButtonName'
 
 function Menu() {
     return (<div data-spy="affix" data-offset-top="830">
         <div className="container">
             <div className="row">
                 <div className="col-sm-2">
-                    <p className="name">Ieva Kavaliauskienė</p>
+                    <ButtonName />
                 </div>
                 <div className="col-sm-2"></div>
                 <div className="col-md-8">

@@ -13,19 +13,23 @@ function Hobbies() {
                 <CardContent>
                     <div className="row">
                         <div className="col-sm-4">
-                            <span className="Ranga animate__animated animate__bounce">Reading</span>
-                            <span className="Asar">Travel</span>
-                            <span className="Open-sans">Gel nails</span>
+                            <p className="Ranga animate__animated animate__bounce">Reading</p>
+                            <p className="Asar">Travel</p>
+                            <p className="Open-sans animate__animated animate__flash
+">Gel nails</p>
                         </div>
                         <div className="col-sm-4">
-                            <span className="Lato">Running</span>
-                            <span className="Oswald">Technology</span>
-                            <span className="Montsrrat">Fashion</span>
+                            <p className="Lato animate__animated animate__pulse">Running</p>
+                            <p className="Oswald">Technology</p>
+                            <p className="Montsrrat">Fashion</p>
                         </div>
                         <div className="col-sm-4">
-                            <span className="Anton">Riding the bicycle</span>
-                            <span className="Lora">News</span>
-                            <span className="Eagle-Lake">Food</span>
+                            <p className="Anton animate__animated animate__shakeX">Bicycle</p>
+                            <p className="Lora animate__animated animate__heartBeat
+">News</p>
+                            <p className="Eagle-Lake">Food</p>
+
+
                         </div>
                     </div>
                 </CardContent>

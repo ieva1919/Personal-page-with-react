@@ -1,7 +1,13 @@
 .hobbies {
+  margin-bottom: 70px;
+
     span {
         padding: 10px;
     }
+}
+
+.MuiCardContent-root {
+  margin: 25px;
 }
 
 .animate__animated {
@@ -10,6 +16,30 @@
         animation-duration: 4s;
         animation-delay: 2s;
         animation-iteration-count: infinite;
+    }
+
+    &.animate__flash {
+      animation-duration: 4s;
+      animation-delay: 2s;
+      animation-iteration-count: infinite;
+    }
+
+    &.animate__pulse {
+      animation-duration: 6s;
+      animation-delay: 2s;
+      animation-iteration-count: infinite;
+    }
+
+    &.animate__shakeX {
+      animation-duration: 4s;
+      animation-delay: 2s;
+      animation-iteration-count: infinite;
+    }
+
+    &.animate__heartBeat {
+      animation-duration: 4s;
+      animation-delay: 2s;
+      animation-iteration-count: infinite;
     }
 }
 
