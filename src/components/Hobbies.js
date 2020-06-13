@@ -12,13 +12,17 @@ function Hobbies() {
             <Card>
                 <CardContent>
                     <div className="row">
-                        <div className="col-sm-12">
+                        <div className="col-sm-4">
                             <span className="Ranga animate__animated animate__bounce">Reading</span>
                             <span className="Asar">Travel</span>
                             <span className="Open-sans">Gel nails</span>
+                        </div>
+                        <div className="col-sm-4">
                             <span className="Lato">Running</span>
                             <span className="Oswald">Technology</span>
                             <span className="Montsrrat">Fashion</span>
+                        </div>
+                        <div className="col-sm-4">
                             <span className="Anton">Riding the bicycle</span>
                             <span className="Lora">News</span>
                             <span className="Eagle-Lake">Food</span>

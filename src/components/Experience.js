@@ -1,11 +1,12 @@
 import React from 'react'
 import './Experience.scss'
 import BoxHeader from './BoxHeader'
+import DarkContent from './DarkContent'
 import CardExperience from './CardExperience'
 
 function Experience() {
-    return (<div className="color-darker">
-        <BoxHeader title="MY PROFESSIONAL BACKGROUND" container="WORK EXPERIENCE" />
+    return (<DarkContent>
+        <BoxHeader title="MY PROFESSIONAL BACKGROUND" container="EXPERIENCE" />
         <div className="container" id="experience">
             <div className="work">
                 <div className="row">
@@ -75,7 +76,7 @@ function Experience() {
                 </div>
             </div>
         </div>
-    </div >
+    </DarkContent >
     )
 }
 

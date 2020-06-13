@@ -3,6 +3,7 @@ import './Skill.scss'
 import { makeStyles } from '@material-ui/core/styles';
 import BoxHeader from './BoxHeader'
 import Skillcard from './Skillcard'
+import DarkContent from './DarkContent'
 import { Computer, Business, PhoneIphone, Headset } from '@material-ui/icons';
 
 const useStyles = makeStyles({
@@ -15,9 +16,9 @@ function Skill() {
     const classes = useStyles();
 
     return (
-        <div className="color-darker">
+        <DarkContent>
             <div className="container" id="skills">
-                <BoxHeader title="WHAT I’M DOING" container="SKILLS & HOBBIES" />
+                <BoxHeader title="WHAT I’M DOING" container="SKILLS" />
                 <div className="skill">
                     <div className="skillintechnologies">
                         <div className="KNOWLEDGE">
@@ -49,7 +50,7 @@ function Skill() {
                     </div>
                 </div>
             </div>
-        </div>
+        </DarkContent>
     )
 }
 

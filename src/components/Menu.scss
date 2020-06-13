@@ -40,3 +40,50 @@
   .affix + .container {
     padding-top: 66px;
   }
+
+  .btn-primary {
+    background-color: transparent;
+    color: black;
+    border: none;
+  }
+
+  .btn-primary:focus {
+    background-color: transparent;
+    color: black;
+    border: none;
+    box-shadow: none;
+  }
+
+   .btn-primary:not(:disabled):not(.disabled):active,
+   .show > .btn-primary.dropdown-toggle {
+    background-color: transparent;
+    color: black;
+    border: none;
+  }
+
+  .show>.btn-primary.dropdown-toggle:focus,
+  .btn-primary:not(:disabled):not(.disabled):active:focus {
+    box-shadow: none;
+  }
+
+  .btn-primary:hover {
+    background-color: transparent;
+    color: black;
+    border: none;
+  }
+
+  .dropdown {
+    display: inline-block;
+  }
+
+  .dropdown-item.active, .dropdown-item:active {
+    background-color: #B8AA7D;
+    color: black;
+    border: none;
+  }
+
+  .dropdown-item:focus, .dropdown-item:hover {
+    background-color: #B8AA7D;
+    color: black;
+    border: none;
+  }

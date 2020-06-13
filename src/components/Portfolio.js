@@ -1,12 +1,14 @@
 import React from 'react'
 import BoxHeader from './BoxHeader'
+import DarkContent from './DarkContent'
 import Portfoliocard from './Portfoliocard'
+import { Link } from 'react-router-dom'
 
 
 function Portfolio() {
 
     return (
-        <div className="color-darker">
+        <DarkContent>
             <div className="container" id="portfolio">
                 <BoxHeader title="MY WORKS" container="PORTFOLIO" />
                 <div className="portfolio">
@@ -20,9 +22,9 @@ function Portfolio() {
                         </div>
                         <div className="col-md-4 text-center">
                             <Portfoliocard title="Templates for your CVs" content="These CV's are cretaed by using HTML and CSS">
-                                <a href="#" target="_blank">
+                                <Link to="/templates">
                                     <img src="/img/template.jpg" />
-                                </a>
+                                </Link>
                             </Portfoliocard>
                         </div>
                         <div className="col-md-4 text-center">
@@ -44,7 +46,7 @@ function Portfolio() {
                     </div>
                 </div>
             </div>
-        </div>
+        </DarkContent>
     )
 }
 

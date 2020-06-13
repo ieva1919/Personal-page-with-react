@@ -8,30 +8,30 @@ import Education from './components/Education'
 import Skill from './components/Skill'
 import Hobbies from './components/Hobbies'
 import Portfolio from './components/Portfolio'
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <Name />
-      <Menu />
-      <Personaldetail />
-      <Experience />
-      <Education />
-      <Skill />
-      <Hobbies />
-      <Portfolio />
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Name />
+        <Switch>
+          <Route path="/templates">
+
+          </Route>
+          <Route path="/">
+            <Menu />
+            <Personaldetail />
+            <Experience />
+            <Education />
+            <Skill />
+            <Hobbies />
+            <Portfolio />
+          </Route>
+        </Switch>
+      </div>
+    </BrowserRouter>
   );
 }
-
-//     <Page>
-//         <SideMenu />
-//         <MainContent>
-//             <PageHeader header="Users" />
-//             <LoadingBar loading={loading} />
-//             <DataTable date={users} />
-//             <Pagination />
-//         </MainContent>
-//     </Page>
 
 export default App;
