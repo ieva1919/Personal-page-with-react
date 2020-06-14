@@ -43,6 +43,13 @@ function Portfolio() {
                                 </a>
                             </Portfoliocard>
                         </div>
+                        <div className="col-md-4 text-center">
+                            <Portfoliocard title="My portfolio page" content="This page is creating by using HTML5, CSS3, SASS, CSS Media query, React, Router, Bootstarp 4, React Bottstrap">
+                                <a href="/" target="_blank">
+                                    <img src="/img/portfolio.jpg" />
+                                </a>
+                            </Portfoliocard>
+                        </div>
                     </div>
                 </div>
             </div>

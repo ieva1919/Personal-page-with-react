@@ -19,7 +19,7 @@ function Experience() {
                     <div className="col-sm-7">
                         <ul>
                             <li>Participation of Women go Tech program and creation of new projects with mentors <a href="https://github.com/ieva1919/WGT-React">React project</a> and <a href="https://github.com/ieva1919/WGT-React">JavaScript project</a></li>
-                            <li>Creation of these following pages: my portfolio, Agnes atvirukai and other different projects</li>
+                            <li>Creation of these following pages: my portfolio, Agnes atvirukai and other different projects in my computer or <a href="https://github.com/ieva1919" target="blank">in my GitHub account</a></li>
                         </ul>
                     </div>
                 </div>
