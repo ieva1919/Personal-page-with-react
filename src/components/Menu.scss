@@ -18,21 +18,6 @@
     }
 }
 
-  .affix {
-    top: 0px;
-    width: 100%;
-    background: white;
-    z-index: 1;
-  }
-  
-  .affix-top .container, .affix .container {
-    padding-top: 10px;
-  }
-  
-  .affix + .container {
-    padding-top: 66px;
-  }
-
   .btn-primary {
     background-color: transparent;
     color: black;

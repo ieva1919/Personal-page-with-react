@@ -17,7 +17,7 @@ function getModalStyle() {
 const useStyles = makeStyles((theme) => ({
     paper: {
         position: 'absolute',
-        width: '45%',
+        // width: '45%',
         backgroundColor: theme.palette.background.paper,
         border: '2px solid #000',
         boxShadow: theme.shadows[5],
@@ -27,10 +27,9 @@ const useStyles = makeStyles((theme) => ({
     },
     button: {
         border: 'none',
-
-        img: {
-            verticalAlign: 'text-top',
-        }
+        position: 'absolute',
+        top: '10px',
+        right: '10px',
     },
 }));
 
@@ -49,7 +48,7 @@ function Mymodal(props) {
 
     const body = (
         <div style={modalStyle} className={classes.paper}>
-            <button type="button" onClick={handleOpen}>
+            <button type="button" className={classes.button} onClick={handleClose}>
                 <img src="/img/close.svg" alt="close button" />
             </button>
             {props.body}
@@ -58,9 +57,9 @@ function Mymodal(props) {
 
     return (
         <div>
-            <button type="button" onClick={handleOpen}>
+            <div onClick={handleOpen}>
                 {props.children}
-            </button>
+            </div>
             <Modal
                 open={open}
                 onClose={handleClose}

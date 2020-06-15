@@ -1,3 +1,17 @@
 .template {
     margin-bottom: 70px;
 }
+
+.mybutton {
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 9px;
+    background-color: #B8AA7D;
+    color: white;
+    text-align: center;
+    border: none;
+  }
+
+  .mybutton:focus {
+    border: none;
+  }

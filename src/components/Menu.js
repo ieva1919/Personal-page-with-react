@@ -4,7 +4,7 @@ import { Dropdown } from 'react-bootstrap'
 import ButtonName from './ButtonName'
 
 function Menu() {
-    return (<div data-spy="affix" data-offset-top="830">
+    return (<div>
         <div className="container">
             <div className="row">
                 <div className="col-sm-2">
@@ -31,9 +31,9 @@ function Menu() {
                                     Education
                                     </Dropdown.Toggle>
                                 <Dropdown.Menu>
-                                    <Dropdown.Item href="#distance">Programming experience</Dropdown.Item>
-                                    <Dropdown.Item href="#administration">Senior sales operations specialist</Dropdown.Item>
-                                    <Dropdown.Item href="#german">Sales operations specialist</Dropdown.Item>
+                                    <Dropdown.Item href="#distance">Learning web development</Dropdown.Item>
+                                    <Dropdown.Item href="#administration">Master of Public Administration</Dropdown.Item>
+                                    <Dropdown.Item href="#german">German philology</Dropdown.Item>
                                 </Dropdown.Menu>
                             </Dropdown>
                             <li>

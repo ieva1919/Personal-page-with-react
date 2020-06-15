@@ -15,10 +15,7 @@ function Education() {
                     </div>
                     <div className="col-sm-8">
                         <h4>Learning web development</h4>
-                        <p className="text-justify">I started to enjoy web pages more and more. I read a lot of
-                        information on the internet, sign up for Codecademy, freeCodeCamp, graduated from Kaunas
-                        Coding Schools 6 weeks of intensive programming courses and now I want to build my new
-                            experience in career. </p>
+                        <p className="text-justify">I started learning programming gradually. First, I just wanted to understand what it is and how it would be possible to automate simple day-to-day administrative tasks. I considered it my hobby. I became familiar with various programming languages, data hosting on servers and styles of pages. Second, I started thinking that I want to spend more time on programming and that it can be more than just a hobby. I graduated six weeks of intensive programming courses at Kaunas Coding Schools. After these studies I became more and more interested only in web development. Analyzing what I like the most and what I can the best I realized that I like the front end. </p>
                     </div>
                 </div>
             </div>
@@ -33,13 +30,8 @@ function Education() {
                     </div>
                     <div className="col-sm-8">
                         <h4>Master of Public Administration (MPA)</h4>
-                        <p className="text-justify">When I finished German philology, I wanted to improve knowledge in
-                        social sciences. I think, that it will be easier
-                        to integrate into the labor market. I chose public administration studies because I wanted
-                        to learn about political
-                        process management, what the differences are between the public and private sectors. But
-                        after finishing my studies I realized that I wanted to work only in the private sector.
-                    </p>
+                        <p className="text-justify">I wanted to study further but there were no studies with german language in Lithuania. I decided to study something from social sciences. So I entered the public administration. These studies were interesting to me in that I became more aware of how public institutions work, the differences between the public and private sectors became apparent. The most important point, while studying I realized that I really don't want to work in the public sector. The study material was useful to me in general. During these studies, I began to think more and more about programming.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -54,13 +46,7 @@ function Education() {
                     </div>
                     <div className="col-sm-8">
                         <h4>German philology</h4>
-                        <p className="text-justify">When I was in the twelve class, I was interested in german language and
-                        wanted to study just german philology. I'm sure that German
-                        is the gateway to the world-class higher education! Sound of this language is very
-                        beautiful. I also liked the fact
-                        that German and English are so similar. Many words in German sound and/or look the same as
-                        equivalent English words,
-                        because the two languages share the same “grandparent“.</p>
+                        <p className="text-justify">When I learned in school I was so interested in german language and decided to study a deeper special this speech. I was very fascinated in studium at Vilnius university and was completely happy for opportunities to improve everything with Germany and german language. My studies were going great because I had chances to familiarize a lot of literature, to titrate films, to work in Germany and to create my new experience. Also, after studium I started to work as a translator and studied a master's studies. After working for several years as a freelancer, I wanted to get a job under an employment contract. I enjoyed working with German wery vell but didn't like to work as a freelancer.</p>
                     </div>
                 </div>
             </div>
