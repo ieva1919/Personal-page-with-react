@@ -28,7 +28,7 @@ function Experience() {
                 <div className="row">
                     <div className="col-sm-5">
                         <CardExperience
-                            title1="From 1 August 2018-Present"
+                            title1="From 1 August 2018 and present"
                             title2="Senior sales operations specialist"
                         />
                     </div>

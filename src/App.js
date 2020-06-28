@@ -23,11 +23,11 @@ function App() {
           <Route path="/">
             <Menu />
             <Personaldetail />
+            <Skill />
+            <Portfolio />
             <Experience />
             <Education />
-            <Skill />
             <Hobbies />
-            <Portfolio />
           </Route>
         </Switch>
       </div>

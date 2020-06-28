@@ -25,7 +25,7 @@ function Personaldetail() {
                     <h3>Front end</h3>
                     <p className="text-justify">
                         I can describe my self as someone who is persistent, a quick  learner and loves problem solving by using simple and scalable solutions.
-                        <br />I have been interested in front end world more than some years. Firstly, I have been learning using online courses and by myself. Secondly, I have graduated Kaunas Coding Schools 6 weeks intensive programmer course, where I have learned the basics of JAVA, C# and web development. Finally, I am participant of Women go Tech and I have completed about ten different web projects while learning.</p>
+                        <br />I have been interested in front end world more than some years. Firstly, I have been learning using online courses and by myself. Secondly, I have graduated Kaunas Coding Schools 6 weeks intensive programmer course, where I have learned the basics of JAVA, C# and web development. Finally, I was participant of Women go Tech and I have completed about ten different web projects while learning.</p>
                 </div>
             </div>
         </div>

@@ -46,7 +46,7 @@ function Education() {
                     </div>
                     <div className="col-sm-8">
                         <h4>German philology</h4>
-                        <p className="text-justify">When I learned in school I was so interested in german language and decided to study a deeper special this speech. I was very fascinated in studium at Vilnius university and was completely happy for opportunities to improve everything with Germany and german language. My studies were going great because I had chances to familiarize a lot of literature, to titrate films, to work in Germany and to create my new experience. Also, after studium I started to work as a translator and studied a master's studies. After working for several years as a freelancer, I wanted to get a job under an employment contract. I enjoyed working with German wery vell but didn't like to work as a freelancer.</p>
+                        <p className="text-justify">When I learned in school I was so interested in german language and decided to study deeper special this science. I was very fascinated in studium at Vilnius university and was completely happy for opportunities to improve everything with Germany and german language. My studies were going great because I had chances to familiarize a lot of literature, to titrate films, to work in Germany and to create my experience. Also, after studium I started to work as a translator and studied a master's studies. After working for several years as a freelancer, I wanted to get a job under an employment contract. I enjoyed working with German wery vell but didn't like to work as a freelancer.</p>
                     </div>
                 </div>
             </div>

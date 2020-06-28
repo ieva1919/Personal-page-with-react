@@ -15,6 +15,8 @@ function Menu() {
                     <div className="menu">
                         <ul>
                             <li><a href="#personal">Personal details</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
                             <Dropdown>
                                 <Dropdown.Toggle>
                                     Experience
@@ -38,9 +40,7 @@ function Menu() {
                             </Dropdown>
                             <li>
                             </li>
-                            <li><a href="#skills">Skills</a></li>
                             <li><a href="#hobbies">Hobbies</a></li>
-                            <li><a href="#portfolio">Portfolio</a></li>
                         </ul>
                     </div>
                 </div>
