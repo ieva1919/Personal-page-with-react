@@ -1,10 +1,10 @@
 import React from 'react'
 import './ButtonName.scss'
 
-function ButtonName() {
+function ButtonName(props) {
     return (
         <div>
-            <p className="name">Ieva Kavaliauskienė</p>
+            <p className="name">{props.title}</p>
         </div>
     )
 }
