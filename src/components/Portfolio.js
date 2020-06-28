@@ -34,23 +34,154 @@ function Portfolio() {
                         </div>
                     </div>
                 </div>
-                <div className="row">
-                    <div className="col-md-12 text-left">
-                        <div className="usedtechnologie">
-                            <h3>Technologies Used</h3>
-                            <div className="usedtechnologie-buttonName">
-                                <ButtonName title="HTML5" />
-                                <ButtonName title="CSS3" />
-                                <ButtonName title="SASS" />
-                                <ButtonName title="CSS Flexbox" />
-                                <ButtonName title="CSS Media query" />
-                                <ButtonName title="React (router)" />
-                                <ButtonName title="The style of page was created by myself" />
+                <div className="destop">
+                    <div className="row">
+                        <div className="col-md-12 text-left">
+                            <div className="usedtechnologie">
+                                <h3>Technologies Used</h3>
+                                <div className="usedtechnologie-buttonName">
+                                    <ButtonName title="HTML5" />
+                                    <ButtonName title="CSS3" />
+                                    <ButtonName title="SASS" />
+                                    <ButtonName title="CSS Flexbox" />
+                                    <ButtonName title="CSS Media query" />
+                                    <ButtonName title="React (router)" />
+                                    <ButtonName title="The style of page was created by myself" />
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div className="mobile">
+                    <div className="row">
+                        <div className="usedtechnologie">
+                            <h3>Technologies Used</h3>
+                            <div className="usedtechnologie-buttonName">
+                                <div className="col-md-6 text-left">
+                                    <ButtonName title="HTML5" />
+                                    <ButtonName title="CSS3" />
+                                    <ButtonName title="SASS" />
+                                </div>
+                                <div className="col-md-6 text-left">
+                                    <ButtonName title="CSS Flexbox" />
+                                    <ButtonName title="CSS Media query" />
+                                    <ButtonName title="React (router)" />
+                                </div>
+                                <div className="col-md-4 text-left">
+                                    <ButtonName title="The style of page was created by myself" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="row">
+                    <div className="col-md-6 text-center">
+                        <Portfoliocard title="Login page" content="This React project was created together with my two mentors from program Women go Tech">
+                            <a href="https://github.com/ieva1919/WGT-React" target="_blank">
+                                <img src="/img/userpage.jpg" />
+                            </a>
+                        </Portfoliocard>
+                        {/* This project is created by using React (API, API Rest, Router, Thunk, Redux), SASS" */}
+                    </div>
+                    <div className="col-md-6 text-center">
+                        <div className="usedtechnologie">
+                            <h3>My Role</h3>
+                            <p className="text-justify">This was a really fun project that was meant to learn and to display off more of my technical React skills. I met regularly with my mentors discussing vision and goals, subtleties of components, while learning opportunities of React.</p>
+                            <h3>Project Difficulties</h3>
+                            <p className="text-justify">This project was my first bigger experience with React. The hardest part was the very beginning because I had a lot of time to understand and explain how React works.</p>
+                            <h3>My Solution</h3>
+                            <p className="text-justify">I had a lot of first cases and studied a material step by step.</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="destop">
+                    <div className="row">
+                        <div className="col-md-12 text-left">
+                            <div className="usedtechnologie">
+                                <h3>Technologies Used</h3>
+                                <div className="usedtechnologie-buttonName">
+                                    <ButtonName title="HTML5" />
+                                    <ButtonName title="CSS3" />
+                                    <ButtonName title="SASS" />
+                                    <ButtonName title="CSS Flexbox" />
+                                    <ButtonName title="React (API, API Rest)" />
+                                    <ButtonName title="React (Router, Thunk, Redux)" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="mobile">
+                    <div className="row">
+                        <div className="usedtechnologie">
+                            <h3>Technologies Used</h3>
+                            <div className="usedtechnologie-buttonName">
+                                <div className="col-md-6 text-left">
+                                    <ButtonName title="HTML5" />
+                                    <ButtonName title="CSS3" />
+                                    <ButtonName title="SASS" />
+                                </div>
+                                <div className="col-md-6 text-left">
+                                    <ButtonName title="CSS Flexbox" />
+                                    <ButtonName title="CSS Media query" />
+                                    <ButtonName title="React (router)" />
+                                </div>
+                                <div className="col-md-4 text-left">
+                                    <ButtonName title="The style of page was created by myself" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div className="row">
+                    <div className="col-md-6 text-center">
+                        <Portfoliocard title="Templates for your CV's" content="You can see more examples of CV's by clicking this link">
+                            <Link to="/templates">
+                                <div className="imgcv">
+                                    <img src="/img/template.jpg" />
+                                </div>
+                            </Link>
+                        </Portfoliocard>
+                    </div>
+                    <div className="col-md-6 text-center">
+                        <div className="usedtechnologie">
+                            <h3>My Role</h3>
+                            <p className="text-justify">I wanted to better realized opportunities of HTML and CSS. There is really simple project to display my basic of programming knowledge.</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="destop">
+                    <div className="row">
+                        <div className="col-md-12 text-left">
+                            <div className="usedtechnologie">
+                                <h3>Technologies Used</h3>
+                                <div className="usedtechnologie-buttonName">
+                                    <ButtonName title="HTML" />
+                                    <ButtonName title="CSS" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="mobile">
+                    <div className="row">
+                        <div className="usedtechnologie">
+                            <h3>Technologies Used</h3>
+                            <div className="usedtechnologie-buttonName">
+                                <div className="col-md-6 text-left">
+                                    <ButtonName title="HTML" />
+                                    <ButtonName title="CSS" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
+
             <div className="portfolio">
                 <div className="row">
                     <div className="col-md-4 text-center">

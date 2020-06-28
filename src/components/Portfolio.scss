@@ -7,18 +7,44 @@
         padding-top: 70px;
     }
 
+    .imgcv {
+
+        img {
+            padding-top: 0;
+            width: 60%;
+        }
+    }
+
 }
 
 .usedtechnologie {
     padding-top: 70px;
-
 
     h3 {
         color: #B8AA7D;
     }
 }
 
+.mobile {
+    display: none;
+}
 .usedtechnologie-buttonName {
     display: flex;
-    
+
+}
+
+@media all and (max-width: 600px) { 
+
+    .destop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+
+        h3 {
+            padding-left: 10px;
+        }
+    }
+
 }
