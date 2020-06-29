@@ -16,7 +16,18 @@ function Menu() {
                         <ul>
                             <li><a href="#personal">Personal details</a></li>
                             <li><a href="#skills">Skills</a></li>
-                            <li><a href="#portfolio">Portfolio</a></li>
+                            <Dropdown>
+                                <Dropdown.Toggle>
+                                    Portfolio
+                                    </Dropdown.Toggle>
+                                <Dropdown.Menu>
+                                    <Dropdown.Item href="#atvirukai">Agnės atvirukai</Dropdown.Item>
+                                    <Dropdown.Item href="#login">Login page</Dropdown.Item>
+                                    <Dropdown.Item href="#responsive">Responsive page</Dropdown.Item>
+                                    <Dropdown.Item href="#template">Templates for your CV's</Dropdown.Item>
+                                    <Dropdown.Item href="#portfolio">My portfolio page</Dropdown.Item>
+                                </Dropdown.Menu>
+                            </Dropdown>
                             <Dropdown>
                                 <Dropdown.Toggle>
                                     Experience

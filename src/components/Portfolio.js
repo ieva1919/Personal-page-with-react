@@ -11,8 +11,8 @@ function Portfolio() {
     return (
         <div className="container" id="portfolio">
             <BoxHeader title="MY WORKS" container="PORTFOLIO" />
-            <div className="portfolio">
-                <div className="row">
+            <div className="portfolio" id="atvirukai">
+                <div className="row" >
                     <div className="col-md-6 text-center">
                         <Portfoliocard
                             title="Agnės atvirukai"
@@ -46,7 +46,7 @@ function Portfolio() {
                                     <ButtonName title="CSS Flexbox" />
                                     <ButtonName title="CSS Media query" />
                                     <ButtonName title="React (router)" />
-                                    <ButtonName title="The style of page was created by myself" />
+                                    <ButtonName title="The style was created by myself" />
                                 </div>
                             </div>
                         </div>
@@ -57,32 +57,31 @@ function Portfolio() {
                         <div className="usedtechnologie">
                             <h3>Technologies Used</h3>
                             <div className="usedtechnologie-buttonName">
-                                <div className="col-md-6 text-left">
+                                <div className="col-md-4 text-left">
                                     <ButtonName title="HTML5" />
                                     <ButtonName title="CSS3" />
                                     <ButtonName title="SASS" />
                                 </div>
-                                <div className="col-md-6 text-left">
+                                <div className="col-md-4 text-left">
                                     <ButtonName title="CSS Flexbox" />
                                     <ButtonName title="CSS Media query" />
                                     <ButtonName title="React (router)" />
                                 </div>
                                 <div className="col-md-4 text-left">
-                                    <ButtonName title="The style of page was created by myself" />
+                                    <ButtonName title="The style was created by myself" />
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div className="row">
+                <div className="row" id="login" >
                     <div className="col-md-6 text-center">
                         <Portfoliocard title="Login page" content="This React project was created together with my two mentors from program Women go Tech">
                             <a href="https://github.com/ieva1919/WGT-React" target="_blank">
                                 <img src="/img/userpage.jpg" />
                             </a>
                         </Portfoliocard>
-                        {/* This project is created by using React (API, API Rest, Router, Thunk, Redux), SASS" */}
                     </div>
                     <div className="col-md-6 text-center">
                         <div className="usedtechnologie">
@@ -107,6 +106,7 @@ function Portfolio() {
                                     <ButtonName title="CSS Flexbox" />
                                     <ButtonName title="React (API, API Rest)" />
                                     <ButtonName title="React (Router, Thunk, Redux)" />
+                                    <ButtonName title="Postman" />
                                 </div>
                             </div>
                         </div>
@@ -117,26 +117,83 @@ function Portfolio() {
                         <div className="usedtechnologie">
                             <h3>Technologies Used</h3>
                             <div className="usedtechnologie-buttonName">
-                                <div className="col-md-6 text-left">
+                                <div className="col-md-4 text-left">
                                     <ButtonName title="HTML5" />
                                     <ButtonName title="CSS3" />
                                     <ButtonName title="SASS" />
                                 </div>
-                                <div className="col-md-6 text-left">
+                                <div className="col-md-4 text-left">
                                     <ButtonName title="CSS Flexbox" />
-                                    <ButtonName title="CSS Media query" />
-                                    <ButtonName title="React (router)" />
+                                    <ButtonName title="React (API, API Rest)" />
+                                    <ButtonName title="React (Router, Thunk, Redux)" />
                                 </div>
                                 <div className="col-md-4 text-left">
-                                    <ButtonName title="The style of page was created by myself" />
+                                    <ButtonName title="Postman" />
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
+                <div className="row" id="responsive">
+                    <div className="col-md-6 text-center">
+                        <Portfoliocard title="Responsive page" content="This project was created together with my mentors from program Women go Tech">
+                            <a href="https://github.com/ieva1919/Onboarding" target="_blank">
+                                <img src="/img/onboarding.jpg" />
+                            </a>
+                        </Portfoliocard>
+                    </div>
+                    <div className="col-md-6 text-center">
+                        <div className="usedtechnologie">
+                            <h3>My Role</h3>
+                            <p className="text-justify">I received a style and completely task what I should do from my mentors. We discussed what I need to do specifically and I started to implement it.</p>
+                            <h3>Project Difficulties</h3>
+                            <p className="text-justify">I had to remember the Javascript and the Javascript interface with HTML and CSS because until then I did not have much experience with it.</p>
+                            <h3>My Solution</h3>
+                            <p className="text-justify">I have studied and remembered a lot about Javascript. Following my planning structure and help of my experts, I could to improve my opportunity and work efficiency.</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="destop">
+                    <div className="row">
+                        <div className="col-md-12 text-left">
+                            <div className="usedtechnologie">
+                                <h3>Technologies Used</h3>
+                                <div className="usedtechnologie-buttonName">
+                                    <ButtonName title="HTML5" />
+                                    <ButtonName title="CSS3" />
+                                    <ButtonName title="SASS" />
+                                    <ButtonName title="CSS Flexbox" />
+                                    <ButtonName title="CSS Media query" />
+                                    <ButtonName title="Javascript" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="mobile">
+                    <div className="row">
+                        <div className="usedtechnologie">
+                            <h3>Technologies Used</h3>
+                            <div className="usedtechnologie-buttonName">
+                                <div className="col-md-4 text-left">
+                                    <ButtonName title="HTML5" />
+                                    <ButtonName title="CSS3" />
+                                    <ButtonName title="SASS" />
+                                </div>
+                                <div className="col-md-4 text-left">
+                                    <ButtonName title="CSS Flexbox" />
+                                    <ButtonName title="CSS Media query" />
+                                    <ButtonName title="Javascript" />
+                                </div>
+                                <div className="col-md-4 text-left">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-                <div className="row">
+                <div className="row" id="template">
                     <div className="col-md-6 text-center">
                         <Portfoliocard title="Templates for your CV's" content="You can see more examples of CV's by clicking this link">
                             <Link to="/templates">
@@ -148,7 +205,7 @@ function Portfolio() {
                     </div>
                     <div className="col-md-6 text-center">
                         <div className="usedtechnologie">
-                            <h3>My Role</h3>
+                            <h3>Overview</h3>
                             <p className="text-justify">I wanted to better realized opportunities of HTML and CSS. There is really simple project to display my basic of programming knowledge.</p>
                         </div>
                     </div>
@@ -180,50 +237,63 @@ function Portfolio() {
                     </div>
                 </div>
 
-            </div>
-
-            <div className="portfolio">
-                <div className="row">
-                    <div className="col-md-4 text-center">
-                        <Portfoliocard title="Agnės atvirukai" content="This project is created by using React, SASS, CSS Flexbox and CSS Media query. The Style of page was created by myself.">
-                            <a href="http://agnesatvirukai.lt/" target="_blank">
-                                <img src="/img/card.jpg" />
-                            </a>
-                        </ Portfoliocard>
-                    </div>
-                    <div className="col-md-4 text-center">
-                        <Portfoliocard title="Templates for your CVs" content="These CV's are cretaed by using HTML and CSS">
-                            <Link to="/templates">
-                                <img src="/img/template.jpg" />
-                            </Link>
-                        </Portfoliocard>
-                    </div>
-                    <div className="col-md-4 text-center">
-                        <Portfoliocard title="Login page" content="This project is created by using React (API, API Rest, Router, Thunk, Redux), SASS">
-                            <a href="https://github.com/ieva1919/WGT-React" target="_blank">
-                                <img src="/img/userpage.jpg" />
-                            </a>
-                        </Portfoliocard>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-md-4 text-center">
-                        <Portfoliocard title="Responsive page" content="This project is creating by using HTML, CSS, SASS, CSS Flexbox, CSS Media query, Javascript">
-                            <a href="https://github.com/ieva1919/Onboarding" target="_blank">
-                                <img src="/img/onboarding.jpg" />
-                            </a>
-                        </Portfoliocard>
-                    </div>
-                    <div className="col-md-4 text-center">
-                        <Portfoliocard title="My portfolio page" content="This page is creating by using HTML5, CSS3, SASS, CSS Media query, React, Router, Bootstarp 4, React Bottstrap">
+                <div className="row" id="portfolio">
+                    <div className="col-md-6 text-center">
+                        <Portfoliocard title="My portfolio page" content="My invented project from start until end">
                             <a href="/" target="_blank">
                                 <img src="/img/portfolio.jpg" />
                             </a>
                         </Portfoliocard>
                     </div>
+                    <div className="col-md-6 text-center">
+                        <div className="usedtechnologie">
+                            <h3>Overview</h3>
+                            <p className="text-justify">Simple React project to display my portfolio of work. It was built by me using React.</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="destop">
+                    <div className="row">
+                        <div className="col-md-12 text-left">
+                            <div className="usedtechnologie">
+                                <h3>Technologies Used</h3>
+                                <div className="usedtechnologie-buttonName">
+                                    <ButtonName title="HTML5" />
+                                    <ButtonName title="CSS3" />
+                                    <ButtonName title="SASS" />
+                                    <ButtonName title="CSS Media query" />
+                                    <ButtonName title="React" />
+                                    <ButtonName title="Bootstarp 4" />
+                                    <ButtonName title="React Bottstrap" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="mobile">
+                    <div className="row">
+                        <div className="usedtechnologie">
+                            <h3>Technologies Used</h3>
+                            <div className="usedtechnologie-buttonName">
+                                <div className="col-md-4 text-left">
+                                    <ButtonName title="HTML5" />
+                                    <ButtonName title="CSS3" />
+                                    <ButtonName title="SASS" />
+                                </div>
+                                <div className="col-md-4 text-left">
+                                    <ButtonName title="CSS Media query" />
+                                    <ButtonName title="React" />
+                                    <ButtonName title="Bootstarp 4" />
+                                </div>
+                                <div className="col-md-4 text-left">
+                                    <ButtonName title="React Bottstrap" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 
