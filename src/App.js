@@ -9,6 +9,7 @@ import Skill from './components/Skill'
 import Hobbies from './components/Hobbies'
 import Portfolio from './components/Portfolio'
 import Template from './pages/Template'
+import Footer from './components/Footer'
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
             <Experience />
             <Education />
             <Hobbies />
+            <Footer />
           </Route>
         </Switch>
       </div>

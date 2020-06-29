@@ -248,7 +248,7 @@ function Portfolio() {
                     <div className="col-md-6 text-center">
                         <div className="usedtechnologie">
                             <h3>Overview</h3>
-                            <p className="text-justify">Simple React project to display my portfolio of work. It was built by me using React.</p>
+                            <p className="text-justify">Simple React project to display my portfolio of programming knowledges. It was built by me using React.</p>
                         </div>
                     </div>
                 </div>
